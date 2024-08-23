@@ -1,5 +1,5 @@
 from tkinter import *
-from key_satings import account_key
+#from key_satings import account_key
 
 def from_rgb(rgb):
     """translates an rgb tuple of int to a tkinter friendly color code
@@ -96,7 +96,7 @@ btn1 = Button(window,
              activeforeground = 'white',
              bg = from_rgb((26, 26, 26)),
              activebackground = 'black',
-             command = lambda: account_key(1),
+             #command = lambda: account_key(1),
              border = "0")
 btn1.place(x = 38, y = 90)
 btn2 = Button(window,

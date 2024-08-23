@@ -1,5 +1,5 @@
 from db.db_window import SQLighter
-from pars.config import starter
+from pars.setingsPars import get_data
 
 
 db = SQLighter('db/db.db')
@@ -9,5 +9,5 @@ def account_key(account_number):
         print('True')
     else:
         print('False')
-        starter()
+        get_data()
     

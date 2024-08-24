@@ -1,4 +1,4 @@
-from db.db_window import SQLighter
+from db.db_account import SQLighter
 from pars.setingsPars import get_data
 
 
